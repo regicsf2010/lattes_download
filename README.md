@@ -4,9 +4,8 @@ This repository contains the code for download a set of lattes curriculum throug
 
 ## Prerequisities
 
-Create "outputs" directory in the root directory if not created automatically. 
-. 
-* [Python](https://www.python.org/)
+Create "outputs" directory in the root directory if not created automatically. Also, you must install the following prerequisites:
+
 * [Selenium](https://selenium-python.readthedocs.io/)
 * [Pydub](https://pypi.org/project/pydub/)
 * [Speech recognition](https://pypi.org/project/SpeechRecognition/)
