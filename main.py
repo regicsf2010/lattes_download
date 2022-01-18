@@ -14,7 +14,7 @@ import urllib
 import pydub
 
 # Define download path
-path_to_download = os.getcwd() + '/downloads'
+path_to_download = os.getcwd() + '/outputs'
 
 # Define a new instance of firefox with specific options
 options = Options()
