@@ -1,1 +1,20 @@
 # lattes_download
+
+This repository contains the code for download a set of lattes curriculum through a vector of id_cnpq.
+
+## Prerequisities
+
+* [Python](https://www.python.org/)
+* [Selenium](https://selenium-python.readthedocs.io/)
+* [Pydub](https://pypi.org/project/pydub/)
+* [Speech recognition](https://pypi.org/project/SpeechRecognition/)
+
+## Run
+
+* git clone https://github.com/regicsf2010/lattes_download.git
+* cd lattes_download
+* open Pycharm IDE on main.py
+
+## Contact
+
+[Reginaldo Santos](http://lattes.cnpq.br/9157422386900321) - [regicsf2010@gmail.com](regicsf2010@gmail.com)
