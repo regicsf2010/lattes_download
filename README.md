@@ -1,6 +1,6 @@
 # lattes_download
 
-This repository contains the code for download a set of lattes curriculum through a vector of id_cnpq.
+This repository contains the code for download a set of lattes curriculum through a vector of id_cnpq. Note that this project was developed on PyCharm IDE. Thus, use PyCharm IDE for better experience.
 
 ## Prerequisities
 
