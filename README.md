@@ -16,6 +16,8 @@ Create "outputs" directory in the root directory if not created automatically. A
 * cd lattes_download
 * open Pycharm IDE on main.py
 
+Please note that each curriculum will placed at directory 'outputs'.
+
 ## Contact
 
 [Reginaldo Santos](http://lattes.cnpq.br/9157422386900321) - [regicsf2010@gmail.com](regicsf2010@gmail.com)
