@@ -21,6 +21,12 @@ Create "outputs" directory in the root directory if not created automatically. A
 - Please note that this robot will search for a directory called 'outputs'. Each curriculum will be placed in this named directory. Thus, do not forget to create it.
 ```
 
+## Instructions for Windows O.S.
+* In the 'main.py', please change 'path_to_download' variable to use symbol '\' instead of '/'
+* Alson, add the following line to the option object: 'options.binary_location = r'C:\<path_to_firefox>\Mozilla Firefox\firefox.exe''
+* Install ffmpeg and add '<path_to_ffmpeg>\bin' folder to the Environment Variables
+
+
 ## Contact
 
 [Reginaldo Santos](http://lattes.cnpq.br/9157422386900321) - [regicsf2010@gmail.com](regicsf2010@gmail.com)
