@@ -85,9 +85,11 @@ for idcnpq in ppgcc_2020:
 
     # Investigate submit button
     button = driver.find_element(By.ID, 'submitBtn')
+    time.sleep(random.randint(1, 2))
 
     # If true, do recaptcha
-    if button.get_attribute('disabled'):
+    # if button.get_attribute('disabled'):
+    if not button.is_enabled():
         print('[INFO] Firefox: solve recaptcha for idcnpq {}'.format(idcnpq))
         # Find iframe tag and switch to that iframe context
         frames = driver.find_element(By.XPATH, '/html/body/div[2]/div[4]').find_elements(By.TAG_NAME, 'iframe')
@@ -149,6 +151,8 @@ for idcnpq in ppgcc_2020:
 
     else: # If false, just click and download zip file
         print('[INFO] Firefox: no recaptcha to solve for {}'.format(idcnpq))
+        time.sleep(1)
         button.click()
+        print('[INFO] Firefox: download zip file OK\n')
 
 driver.quit()
