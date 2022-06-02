@@ -23,7 +23,7 @@ Create "outputs" directory in the root directory if not created automatically. A
 
 ## Instructions for Windows O.S.
 * In the 'main.py', please change 'path_to_download' variable to use symbol '\' instead of '/'
-* Alson, add the following line to the option object: 'options.binary_location = r'C:\<path_to_firefox>\Mozilla Firefox\firefox.exe''
+* Also, add the following line to the option object: 'options.binary_location = r'C:\<path_to_firefox>\Mozilla Firefox\firefox.exe'
 * Install ffmpeg and add '<path_to_ffmpeg>\bin' folder to the Environment Variables
 
 
