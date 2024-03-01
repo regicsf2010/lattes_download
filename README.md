@@ -30,3 +30,10 @@ Create "outputs" directory in the root directory if not created automatically. A
 ## Contact
 
 [Reginaldo Santos](http://lattes.cnpq.br/9157422386900321) - [regicsf2010@gmail.com](regicsf2010@gmail.com)
+
+## 🙏 Donate
+
+If you found this project useful, please contribute:
+
+* Pix-key: c3b63d33-316f-422e-928a-7dd421a0f1b9
+
